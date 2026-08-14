@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no">
+<meta name="description" content="A little digital monthsary surprise made with love.">
+<title>Our Little Story 💚</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="floatingHearts" class="floating-hearts" aria-hidden="true"></div>
+<main id="app">
+
+<section class="screen active" id="opening">
+  <div class="opening-content">
+    <span class="tiny-label">A LITTLE SURPRISE FOR YOU</span>
+    <div class="main-heart"><span>♥</span></div>
+    <h1>For You <span>💚</span></h1>
+    <p class="opening-text">I made a little something for you...</p>
+    <p class="subtle-text">A tiny digital world made from our memories.</p>
+    <button class="primary-btn" id="openSurpriseBtn">Open My Surprise 💌</button>
+  </div>
+</section>
+
+<section class="screen" id="secret">
+  <div class="glass-card secret-card">
+    <div class="lock-icon">🔐</div>
+    <span class="tiny-label">JUST BETWEEN US</span>
+    <h2>Before you continue...</h2>
+    <p>Enter our little secret 💚</p>
+    <input id="secretInput" type="text" placeholder="Our special date..." autocomplete="off">
+    <button class="primary-btn" id="unlockBtn">Unlock My Heart 💚</button>
+    <p class="error-message" id="secretMessage"></p>
+  </div>
+</section>
+
+<section class="screen" id="scrapbook">
+  <div class="section-container">
+    <div class="section-heading">
+      <span class="tiny-label">CHAPTER ONE</span>
+      <h2>Our Little Story</h2>
+      <p>A few little moments that became some of my favorite memories.</p>
+    </div>
+    <div class="scrapbook">
+      <div class="scrapbook-paper" id="scrapbookPaper">
+        <span class="paper-decoration top">♡</span><span class="paper-decoration bottom">✦</span>
+        <div class="tape"></div>
+        <div class="memory-number"><span id="memoryNumber">01</span> / 06</div>
+        <div class="memory-image-wrapper" id="memoryImageWrapper">
+          <img id="memoryImage" src="images/photo1.jpg" alt="Our memory" loading="lazy">
+        </div>
+        <div class="memory-content" id="memoryContent">
+          <span class="memory-date" id="memoryDate"></span>
+          <h3 id="memoryTitle"></h3>
+          <p id="memoryDescription"></p>
+        </div>
+      </div>
+    </div>
+    <div class="memory-controls">
+      <button class="circle-btn" id="previousMemory" aria-label="Previous memory">←</button>
+      <div id="memoryDots" class="memory-dots"></div>
+      <button class="circle-btn" id="nextMemory" aria-label="Next memory">→</button>
+    </div>
+    <button class="secondary-btn" id="continueMemoriesBtn">Continue to our memories →</button>
+  </div>
+</section>
+
+<section class="screen" id="ldrMemories">
+  <div class="section-container">
+    <div class="section-heading">
+      <span class="tiny-label">CHAPTER TWO</span>
+      <h2>Miles Apart,<br>Still Close 💚</h2>
+      <p>Different places. Same person. Same little world.</p>
+    </div>
+    <div class="memory-collage">
+      <div class="collage-card large"><div class="collage-image"><img src="images/photo1.jpg" alt="Video call memory" loading="lazy"></div><p>Even through a screen, you still make my days better.</p></div>
+      <div class="collage-card small left"><div class="collage-image"><img src="images/photo2.jpg" alt="Our memory" loading="lazy"></div><p>One of my favorite faces to see.</p></div>
+      <div class="collage-card small right"><div class="collage-image"><img src="images/photo3.jpg" alt="Our memory" loading="lazy"></div><p>Distance couldn't stop us.</p></div>
+      <div class="collage-card wide"><div class="collage-image"><img src="images/photo4.jpg" alt="Our video call" loading="lazy"></div><p>Different places. One little world.</p></div>
+    </div>
+    <div class="quote-card"><div class="quote-mark">“</div><p>Even though we're far apart, these moments still mean everything to me.</p><span>— Us</span></div>
+    <div class="chapter-nav">
+      <button class="ghost-btn" data-back="scrapbook">← Previous</button>
+      <button class="secondary-btn" id="continueLetterBtn">There's something I want to tell you →</button>
+    </div>
+  </div>
+</section>
+
+<section class="screen" id="letter">
+  <div class="section-container letter-container">
+    <div class="section-heading">
+      <span class="tiny-label">CHAPTER THREE</span><h2>A Letter For You 💌</h2>
+      <p>A few words I wanted you to keep.</p>
+    </div>
+    <div class="envelope-wrapper" id="envelopeWrapper">
+      <div class="envelope"><div class="envelope-flap"></div><div class="envelope-body"><div class="envelope-heart">♥</div><p>For My Palangling</p></div></div>
+    </div>
+    <p class="envelope-hint" id="envelopeHint">Tap the envelope to open it.</p>
+    <button class="primary-btn" id="openLetterBtn">Open My Letter 💚</button>
+    <article class="love-letter" id="loveLetter">
+      <div class="letter-paper">
+        <div class="letter-top">♡　♡　♡</div>
+        <h3>My Palangling,</h3>
+        <div class="letter-text">
+          <p>I just wanted to make something special for you this monthsary.</p>
+          <p>Thank you for being part of my life palangling nako. Even though distance separates us, you are still someone very close to my heart. Bisan pag layo kaayo ka naa ka sa Balamban ako dia sa Bohol, dool gihapon kaayo ka sa akong heart, ayy ehh hehehe. Bisan pag layo kaayo ta sa usag usa, mafeel gihapon nako nga dool ra jud kaayo ka bisan pag sa call ra tika makita. Thankyouu for always being there for me, and loving me deeply for who I am.</p>
+          <p>Every call, every conversation, every silly moment and every memory we create means more to me than you probably realize. Naa man gani daghan pasulay but padayon ra jud ta po ha. Basta mag tinabangay ra jud ta kay partner baya ta po hehehehe. Kaya nato ang tanan kauban si God po.</p>
+          <p>I may not always be able to be beside you physically, but I hope you always remember that I am always here, cheering for you and loving you from wherever I am. Naa rako always po, your number one supporter. Thank you for loving me, caring for me, and for everything you've done for me. I'm really thankful that God put you into my life. I am very lucky to have such an amazing, gorgeous, kind, and woman of God. That is you, my palangling nako.</p>
+          <p>Happy Monthsary, Palangling nako. </p>
+        </div>
+        <div class="letter-signature">With love,<strong>Reyrey </strong></div>
+      </div>
+    </article>
+    <div class="chapter-nav">
+      <button class="ghost-btn" data-back="ldrMemories">← Previous</button>
+      <button class="secondary-btn hidden" id="continueMusicBtn">One more thing... 🎵</button>
+    </div>
+  </div>
+</section>
+
+<section class="screen" id="music">
+  <div class="section-container">
+    <div class="section-heading"><span class="tiny-label">CHAPTER FOUR</span><h2>Our Song 🎵</h2><p>Press play and stay here for a little while.</p></div>
+    <div class="music-player">
+      <div class="vinyl"><div class="vinyl-center">♡</div></div>
+      <div class="music-info"><span>A SONG FOR US</span><h3>Our Song</h3><p>This one reminds me of you.</p></div>
+      <audio id="audioPlayer" preload="metadata"><source src="audio/our-song.mp3" type="audio/mpeg"></audio>
+      <div class="audio-progress-area"><div class="progress-track" id="progressTrack"><div class="progress-bar" id="progressBar"></div></div><div class="time-row"><span id="currentTime">0:00</span><span id="duration">0:00</span></div></div>
+      <button class="play-btn" id="playBtn" aria-label="Play music">▶</button>
+      <p class="audio-status" id="audioStatus">Tap play to start our song.</p>
+    </div>
+    <div class="chapter-nav">
+      <button class="ghost-btn" data-back="letter">← Previous</button>
+      <button class="secondary-btn" id="continueFinalBtn">One Last Surprise 💚</button>
+    </div>
+  </div>
+</section>
+
+<section class="screen final-screen" id="final">
+  <div class="final-content">
+    <div class="final-small">ONE LAST THING</div><div class="final-heart">♥</div>
+    <h1>For My Favorite Person...</h1>
+    <button class="primary-btn" id="finalSurpriseBtn">  More...  </button>
+    <div class="final-message" id="finalMessage">
+      <div class="final-divider">✦ · ♡ · ✦</div>
+      <h2>Happy Monthsary, Langga! </h2>
+      <p>No matter how many miles are between us, I will always choose you.</p>
+      <p>Thank you for being my person, my comfort, my favorite call, and my favorite part of every day.</p>
+      <p>Here's to more memories, more calls, more laughter, and one day... no more distance.</p>
+      <strong>I love you so much, Palangling nako. 💚</strong><div class="final-signature">— Reyrey</div>
+      <button class="replay-btn" id="replayBtn">Replay our little story ↻</button>
+    </div>
+  </div>
+  <div class="celebration" id="celebration" aria-hidden="true"></div>
+</section>
+
+</main>
+<script src="script.js"></script>
+</body>
+</html>

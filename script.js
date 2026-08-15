@@ -5,12 +5,12 @@ const girlfriendName="Shasha";
 const senderName="Reyrey";
 
 const memories=[
-{image:"images/photo1.jpg",date:"ONE OF MY FAVORITE MOMENTS",title:"The day I realized how special you are.",description:"Some moments are small, but somehow they stay in our hearts."},
-{image:"images/photo2.jpg",date:"ONE OF OUR LITTLE MOMENTS",title:"A moment I wish I could replay.",description:"Even the simplest moments become special when they are with you."},
-{image:"images/photo3.jpg",date:"OUR MEMORY",title:"You make ordinary days feel different.",description:"Distance cannot stop us from creating beautiful memories together."},
-{image:"images/photo4.jpg",date:"THAT SPECIAL DAY",title:"Another memory I want to keep forever.",description:"I hope we keep collecting moments like this."},
-{image:"images/photo5.jpg",date:"ONE MORE MEMORY",title:"Different places, same little world.",description:"No matter how far apart we are, you still feel close to me."},
-{image:"images/photo6.jpg",date:"MY FAVORITE PERSON",title:"And then there's you.",description:"My favorite part of all these memories is that I get to share them with you."}
+{image:"images/photo1.jpg",date:"THE BEGINNING OF US",title:"The day you finally said yes.",description:"This will always be one of the memories closest to my heart. The day you said yes to me, and somehow, our little story officially began."},
+{image:"images/photo2.jpg",date:"ONE OF OUR LITTLE MOMENTS",title:"A moment I wish I could replay.",description:"I remember looking at you through the screen and thinking how lucky I was to have someone as beautiful and special as you in my life."},
+{image:"images/photo3.jpg",date:"OUR SILLY LITTLE MOMENT",title:"Us being our weirdest selves.",description:"We don't always have to look perfect. Sometimes, making funny faces together is enough to make a simple video call one of my favorite memories."},
+{image:"images/photo4.jpg",date:"ANOTHER VC I TREASURE",title:"How can you be this cute?",description:"Another ordinary video call that became special just because it was with you. Somehow, you always find a way to make me fall for you all over again."},
+{image:"images/photo5.jpg",date:"YOUR BEAUTIFUL SMILE",title:"Your smile will always be one of my favorites..",description:"Out of all the little things I love about you, your smile has a special place in my heart. Seeing you smile, even through a screen, can instantly make my day better."},
+{image:"images/photo6.jpg",date:"MY FAVORITE PERSON",title:"And then there's you.",description:"Just you being you. Smiling, being cute, and somehow making me fall for you a little more every time we talk. These little moments mean more to me than you know."}
 ];
 
 const $=id=>document.getElementById(id);

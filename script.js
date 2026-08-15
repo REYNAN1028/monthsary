@@ -6,7 +6,7 @@ const senderName="Reyrey";
 
 const memories=[
 {image:"images/photo1.jpg",date:"THE BEGINNING OF US",title:"The day you finally said yes.",description:"This will always be one of the memories closest to my heart. The day you said yes to me, and somehow, our little story officially began."},
-{image:"images/photo2.jpg",date:"ONE OF OUR LITTLE MOMENTS",title:"A moment I wish I could replay.",description:"I remember looking at you through the screen and thinking how lucky I was to have someone as beautiful and special as you in my life."},
+{image:"images/photo2.jpg",date:"A LITTLE MOMENT I TREASURE",title:"You were so beautiful that day not just then, but always.",description:"I remember looking at you through the screen and thinking how lucky I was to have someone as beautiful and special as you in my life."},
 {image:"images/photo3.jpg",date:"OUR SILLY LITTLE MOMENT",title:"Us being our weirdest selves.",description:"We don't always have to look perfect. Sometimes, making funny faces together is enough to make a simple video call one of my favorite memories."},
 {image:"images/photo4.jpg",date:"ANOTHER VC I TREASURE",title:"How can you be this cute?",description:"Another ordinary video call that became special just because it was with you. Somehow, you always find a way to make me fall for you all over again."},
 {image:"images/photo5.jpg",date:"YOUR BEAUTIFUL SMILE",title:"Your smile will always be one of my favorites..",description:"Out of all the little things I love about you, your smile has a special place in my heart. Seeing you smile, even through a screen, can instantly make my day better."},
